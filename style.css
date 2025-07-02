@@ -1,0 +1,119 @@
+/* Minimalist dark theme for markdown-based index.html */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    background: #181a1b;
+    color: #fff;
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 0 1.5rem;
+    line-height: 1.7;
+    font-size: 1.08rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    font-weight: 700;
+    margin-top: 2.2rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+}
+
+h1 {
+    font-size: 2.2rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    border-bottom: 1px solid #222;
+    padding-bottom: 0.3rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+a {
+    color: #7fd1b9;
+    text-decoration: none;
+    border-bottom: 1px dotted #7fd1b9;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+code, pre {
+    font-family: 'Fira Mono', 'Consolas', monospace;
+    background: #232526;
+    color: #e6e6e6;
+    border-radius: 4px;
+}
+
+code {
+    padding: 0.2em 0.4em;
+    font-size: 0.98em;
+}
+
+pre {
+    padding: 1em;
+    overflow-x: auto;
+    margin: 1.5em 0;
+}
+
+ul, ol {
+    margin-left: 2em;
+    margin-bottom: 1.2em;
+}
+
+blockquote {
+    border-left: 3px solid #444;
+    color: #bbb;
+    margin: 1.5em 0;
+    padding: 0.5em 1em;
+    background: #202223;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #333;
+    margin: 2em 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 6px;
+    display: block;
+    margin: 1.5em auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2em 0;
+    background: #202223;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 0.6em 1em;
+    text-align: left;
+}
+
+th {
+    background: #232526;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #232526;
+}
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+}
